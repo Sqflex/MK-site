@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    background: #010202;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+    max-width: 1146px;
+
+    margin: 0 auto;
+    padding: 56px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: block;
+}
+
+.user-photo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+
+    margin-right: 15px;
+}
